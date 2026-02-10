@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports;
+package vn.flinters.adagg.report;
 
 import org.junit.jupiter.api.Test;
 import vn.flinters.adagg.domain.CampaignTotals;

@@ -7,7 +7,7 @@ import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 import vn.flinters.adagg.domain.ReportType;
 
-import vn.flinters.adagg.reports.base.ReportProcessor;
+import vn.flinters.adagg.report.base.ReportProcessor;
 
 import java.nio.file.Path;
 import java.util.Arrays;

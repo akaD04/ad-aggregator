@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports;
+package vn.flinters.adagg.report;
 
 import vn.flinters.adagg.domain.ReportRow;
 import vn.flinters.adagg.domain.ReportType;

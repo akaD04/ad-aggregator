@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports.processor;
+package vn.flinters.adagg.report.processor;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,12 +13,12 @@ import vn.flinters.adagg.domain.ReportType;
 import vn.flinters.adagg.io.UnivocityCsvRowReader;
 import vn.flinters.adagg.io.base.CsvWriter;
 import vn.flinters.adagg.io.base.RowMapper;
-import vn.flinters.adagg.reports.AdRowMapper;
-import vn.flinters.adagg.reports.CampaignAggregator;
-import vn.flinters.adagg.reports.ReportResult;
-import vn.flinters.adagg.reports.base.Aggregator;
-import vn.flinters.adagg.reports.base.ReportStrategy;
-import vn.flinters.adagg.reports.strategy.ReportStrategyFactory;
+import vn.flinters.adagg.report.AdRowMapper;
+import vn.flinters.adagg.report.CampaignAggregator;
+import vn.flinters.adagg.report.ReportResult;
+import vn.flinters.adagg.report.base.Aggregator;
+import vn.flinters.adagg.report.base.ReportStrategy;
+import vn.flinters.adagg.report.strategy.ReportStrategyFactory;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

@@ -1,9 +1,9 @@
-package vn.flinters.adagg.reports.strategy;
+package vn.flinters.adagg.report.strategy;
 
 import org.junit.jupiter.api.Test;
 import vn.flinters.adagg.domain.CampaignTotals;
 import vn.flinters.adagg.domain.ReportType;
-import vn.flinters.adagg.reports.ReportResult;
+import vn.flinters.adagg.report.ReportResult;
 
 import java.nio.file.Path;
 import java.util.HashMap;

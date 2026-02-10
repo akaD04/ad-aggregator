@@ -7,15 +7,15 @@ import vn.flinters.adagg.domain.MutableAdRow;
 import vn.flinters.adagg.domain.ReportRow;
 import vn.flinters.adagg.io.UnivocityCsvRowReader;
 import vn.flinters.adagg.io.base.CsvRowReader;
-import vn.flinters.adagg.reports.AdRowMapper;
+import vn.flinters.adagg.report.AdRowMapper;
 import vn.flinters.adagg.io.ReportCsvWriter;
 import vn.flinters.adagg.io.base.CsvWriter;
 import vn.flinters.adagg.io.base.RowMapper;
-import vn.flinters.adagg.reports.processor.AdReportProcessor;
-import vn.flinters.adagg.reports.CampaignAggregator;
-import vn.flinters.adagg.reports.base.Aggregator;
-import vn.flinters.adagg.reports.base.ReportProcessor;
-import vn.flinters.adagg.reports.strategy.ReportStrategyFactory;
+import vn.flinters.adagg.report.processor.AdReportProcessor;
+import vn.flinters.adagg.report.CampaignAggregator;
+import vn.flinters.adagg.report.base.Aggregator;
+import vn.flinters.adagg.report.base.ReportProcessor;
+import vn.flinters.adagg.report.strategy.ReportStrategyFactory;
 
 public final class AppModule extends AbstractModule {
     @Override

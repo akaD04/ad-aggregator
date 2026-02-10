@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports;
+package vn.flinters.adagg.report;
 
 import vn.flinters.adagg.domain.MutableAdRow;
 import vn.flinters.adagg.io.base.RowMapper;

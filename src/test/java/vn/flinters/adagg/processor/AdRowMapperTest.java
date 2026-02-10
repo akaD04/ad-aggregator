@@ -2,7 +2,7 @@ package vn.flinters.adagg.processor;
 
 import org.junit.jupiter.api.Test;
 import vn.flinters.adagg.domain.MutableAdRow;
-import vn.flinters.adagg.reports.AdRowMapper;
+import vn.flinters.adagg.report.AdRowMapper;
 
 import static org.junit.jupiter.api.Assertions.*;
 

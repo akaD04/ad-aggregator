@@ -1,8 +1,8 @@
-package vn.flinters.adagg.reports.base;
+package vn.flinters.adagg.report.base;
 
 import vn.flinters.adagg.domain.CampaignTotals;
 import vn.flinters.adagg.domain.ReportType;
-import vn.flinters.adagg.reports.ReportResult;
+import vn.flinters.adagg.report.ReportResult;
 
 import java.util.Map;
 

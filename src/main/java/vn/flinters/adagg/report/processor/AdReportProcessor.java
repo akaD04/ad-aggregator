@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports.processor;
+package vn.flinters.adagg.report.processor;
 
 import com.google.inject.Inject;
 import org.slf4j.Logger;
@@ -10,11 +10,11 @@ import vn.flinters.adagg.domain.ReportType;
 import vn.flinters.adagg.io.base.CsvRowReader;
 import vn.flinters.adagg.io.base.CsvWriter;
 import vn.flinters.adagg.io.base.RowMapper;
-import vn.flinters.adagg.reports.ReportResult;
-import vn.flinters.adagg.reports.base.Aggregator;
-import vn.flinters.adagg.reports.base.ReportProcessor;
-import vn.flinters.adagg.reports.base.ReportStrategy;
-import vn.flinters.adagg.reports.strategy.ReportStrategyFactory;
+import vn.flinters.adagg.report.ReportResult;
+import vn.flinters.adagg.report.base.Aggregator;
+import vn.flinters.adagg.report.base.ReportProcessor;
+import vn.flinters.adagg.report.base.ReportStrategy;
+import vn.flinters.adagg.report.strategy.ReportStrategyFactory;
 
 import java.io.BufferedReader;
 import java.io.IOException;

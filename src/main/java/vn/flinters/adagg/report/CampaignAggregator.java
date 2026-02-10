@@ -1,8 +1,8 @@
-package vn.flinters.adagg.reports;
+package vn.flinters.adagg.report;
 
 import vn.flinters.adagg.domain.CampaignTotals;
 import vn.flinters.adagg.domain.MutableAdRow;
-import vn.flinters.adagg.reports.base.Aggregator;
+import vn.flinters.adagg.report.base.Aggregator;
 
 import java.util.Collections;
 import java.util.HashMap;

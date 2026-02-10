@@ -1,4 +1,4 @@
-package vn.flinters.adagg.reports.base;
+package vn.flinters.adagg.report.base;
 
 import vn.flinters.adagg.domain.ReportType;
 

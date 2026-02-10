@@ -1,8 +1,8 @@
-package vn.flinters.adagg.reports.strategy;
+package vn.flinters.adagg.report.strategy;
 
 import org.junit.jupiter.api.Test;
 import vn.flinters.adagg.domain.ReportType;
-import vn.flinters.adagg.reports.base.ReportStrategy;
+import vn.flinters.adagg.report.base.ReportStrategy;
 
 import java.nio.file.Path;
 import java.util.List;
