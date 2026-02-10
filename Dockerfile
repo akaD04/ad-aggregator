@@ -29,4 +29,8 @@ RUN mkdir -p /data /output && chmod 755 /data /output
 ENV JAVA_OPTS="-XX:MaxRAMPercentage=75 -XX:+UseG1GC"
 
 # Run using classpath (no Main-Class manifest needed)
-ENTRYPOINT ["sh","-lc", "APP_JAR=$(ls /app/target/*.jar | grep -Ev '(sources|javadoc|original)' | head -n 1) && exec java $JAVA_OPTS -cp \"$APP_JAR:/app/target/dependency/*\" vn.flinters.adagg.Main \"$@\""]
+ENTRYPOINT ["sh","-c", "\
+APP_JAR=$(ls /app/target/*.jar | grep -Ev '(sources|javadoc|original)' | head -n 1); \
+[ -n \"$APP_JAR\" ] || { echo 'No runnable jar found in /app/target'; ls -lah /app/target; exit 1; }; \
+exec java $JAVA_OPTS -cp \"$APP_JAR:/app/target/dependency/*\" vn.flinters.adagg.Main \"$@\" \
+", "--"]
